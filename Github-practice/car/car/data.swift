@@ -8,5 +8,19 @@
 
 import Foundation
 class Car {
+	
+	var wheels: Int
+	var horsePower: Int
+	var model: String
+	
+	init(wheels: Int, horsePower: Int, model: String) {
+		self.wheels = wheels
+		self.horsePower = horsePower
+		self.model = model
+	}
 
+}
+
+class Garage {
+	
 }
